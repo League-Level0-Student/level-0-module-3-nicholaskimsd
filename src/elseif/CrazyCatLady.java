@@ -21,12 +21,17 @@ if(pooo>3) {
 }
 		// 4. If they have less than 3 cats AND more than 0 cats, call the method below to show them a cat video
 if(pooo<3) {
-	callVideo();
+	String kop = "https:www.youtube.com/watch?v=dGFSjKuJfrI";
+	playVideo(kop);
 	
 }
 		// 5. If they have 0 cats, show them a video of A Frog Sitting on a Bench Like a Human
-		
-	}
+		if(pooo<1) {
+	String caillou = "https://www.youtube.com/watch?v=ZJT9CeEhM10";
+	playVideo(caillou);
+		}
+		}
+	
 
 	static void playVideo(String videoURL) {
 		try {
