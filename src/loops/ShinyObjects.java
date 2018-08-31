@@ -14,9 +14,12 @@ import javax.swing.JOptionPane;
 public class ShinyObjects {
 	public static void main(String[] args) {
 		// 2. Ask the user how many shiny objects they want
-String ko = JOptionPane.showInputDialog("how many shiny objects do you want");
+String ko = JOptionPane.showInputDialog("how many shiny objects do you want 1-10");
 		// 3. Play the sound that many times
-
+int cool = (Integer.parseInt(ko));
+if(cool>4) {
+	String kop = 
+}
 		// 1. Call the method below
 
 	}
